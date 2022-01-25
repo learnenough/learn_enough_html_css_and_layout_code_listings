@@ -1,0 +1,15 @@
+.home-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.home-section h4 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.home-section .post-header {
+  text-align: center;
+}
+.home-section .blog-posts {
+  margin: auto;
+  width: 75%;
+}

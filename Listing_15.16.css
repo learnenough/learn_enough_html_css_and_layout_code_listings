@@ -1,0 +1,19 @@
+.grid-header {
+  background-color: #ccc;
+  grid-area: header;
+}
+.grid-menu {
+  background-color: #c0c0c0;
+  grid-area: menu;
+}
+.grid-content {
+  grid-area: content;
+}
+.grid-panel {
+  background-color: #eee;
+  grid-area: panel;
+}
+.grid-footer {
+  background-color: #ddd;
+  grid-area: footer;
+}

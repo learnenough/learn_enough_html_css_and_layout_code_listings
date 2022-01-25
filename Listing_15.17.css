@@ -1,0 +1,11 @@
+.grid-footer {
+  background-color: #ddd;
+  grid-area: footer;
+}
+.grid-expand {
+  background-color: rgba(255,255,255,0.8);
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  grid-column: content;
+  grid-row: header-start / footer-end;
+  z-index: 2;
+}

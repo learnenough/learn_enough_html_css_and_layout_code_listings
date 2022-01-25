@@ -1,0 +1,10 @@
+.bio-box {
+  border: 1px solid black;
+  border-color: black black red;
+  box-sizing: border-box;
+  float: left;
+  font-size: 1rem;
+  margin: 40px 1% 0;
+  padding: 0 2% 2%;
+  width: 23%;
+}

@@ -1,0 +1,15 @@
+.
+.
+.
+.grid-menu {
+  background-color: #c0c0c0;
+}
+.grid-content {
+  grid-column-start: 2;
+}
+.grid-panel {
+  background-color: #eee;
+}
+.
+.
+.

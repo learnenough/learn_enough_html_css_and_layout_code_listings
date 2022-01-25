@@ -1,0 +1,15 @@
+.feature_content {
+  background-color: #183a53;
+  color: #fff;
+  grid-row-start: 1;
+  margin: 4em 0;
+  padding: 2em 2em;
+}
+.feature_content-1 {
+  align-self: start;
+  grid-column: 2 / 6;
+}
+.feature_content-2 {
+  align-self: end;
+  grid-column: 5 / 8;
+}

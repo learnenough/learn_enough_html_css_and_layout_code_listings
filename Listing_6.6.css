@@ -1,0 +1,12 @@
+#exec-bio {
+  background-color: lightgray;
+}
+.bio-box {
+  border: 1px solid black;
+}
+.alert {
+  background: red;
+}
+#exec-bio.alert {
+  background: red;
+}

@@ -1,0 +1,13 @@
+.grid-expand {
+  .
+  .
+  .
+}
+.grid-banner {
+  align-self: start;
+  background-color: rgba(168,214,247,0.9);
+  grid-column: content-start / panel-end;
+  grid-row-start: content-start;
+  padding: 1em;
+  z-index: 10;
+}

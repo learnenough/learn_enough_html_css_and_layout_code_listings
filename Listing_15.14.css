@@ -1,0 +1,12 @@
+.grid-container {
+  display:  grid;
+  grid-template-columns: 10em 1fr 15em;
+  grid-template-rows: auto 1fr minmax(10em, auto);
+  min-height: 100vh;
+}
+.
+.
+.
+.grid-content {
+             
+}

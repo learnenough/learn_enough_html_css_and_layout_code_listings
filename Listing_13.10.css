@@ -1,0 +1,11 @@
+.header-nav a,
+.drop-trigger {
+  color: #fff;
+}
+.nav-links a,
+.drop-trigger {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}

@@ -1,0 +1,7 @@
+.footer {
+  background-color: #ddd;
+  padding: 4em 1em;
+}
+.footer_menu-first {
+  grid-column-start: 3;
+}

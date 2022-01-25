@@ -1,0 +1,15 @@
+.test-box {
+  background: #9db6dd;
+  display: inline-block;
+  margin: 50px;
+  width: 200px;
+}
+.test-box-nosizing {
+  border: 10px solid #000;
+  padding: 40px;
+}
+.test-box-sizing {
+  box-sizing: border-box;
+  display: block;
+  width: auto;
+}

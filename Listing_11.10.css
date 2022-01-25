@@ -1,0 +1,15 @@
+.content-container {
+  display: flex;
+  flex: 1 1 auto;
+  padding-top: 10vh;
+  width: 100%;
+}
+.
+.
+.
+/* COLUMN STYLES */
+
+.col-three {
+  display: flex;
+  flex: 1;
+}

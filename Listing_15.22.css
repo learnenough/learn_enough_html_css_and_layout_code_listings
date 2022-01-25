@@ -1,0 +1,18 @@
+  .grid-container {
+    display: grid;
+    grid-template-areas: "header header header" "menu banner banner"
+                         "menu content panel" "footer footer footer";
+    grid-template-columns: 10em 1fr 15em;
+    grid-template-rows: minmax(4em, auto) auto 1fr auto;
+    min-height: 100vh;
+  }
+
+  .grid-banner {
+    align-self: start;
+    background-color: rgba(168,214,247,0.9);
+    grid-area: banner;
+    /* grid-column: content-start / panel-end; */
+    /* grid-row-start: content-start; */
+    padding: 1em;
+    z-index: 10;
+  }

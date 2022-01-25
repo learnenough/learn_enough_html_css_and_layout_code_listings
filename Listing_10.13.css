@@ -1,0 +1,23 @@
+/* HOMEPAGE STYLES */
+.home-section {
+  margin: 6rem auto;
+  max-width: 980px;
+  width: 90vw;
+}
+.home-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.home-callout {
+  background-color: #000;
+  color: #fff;
+  padding: 7vh 0;
+}
+.callout-title {
+  font-size: 5.75vw;
+  text-align: right;
+  text-transform: uppercase;
+}
+.callout-copy {
+  font-size: 0.8rem;
+}

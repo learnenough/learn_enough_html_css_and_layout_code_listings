@@ -1,0 +1,12 @@
+/* HERO STYLES */
+.
+.
+.
+.hero-content h1:before {
+  color: blue;
+  content: "B";
+}
+.hero-content h1:after {
+  color: red;
+  content: "A";
+}

@@ -1,0 +1,9 @@
+.grid {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(2em,1fr) repeat(6,minmax(auto,10em))
+                         minmax(2em,1fr);
+}
+.grid_2-8 {
+  grid-column: 2 / 8;
+}

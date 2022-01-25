@@ -1,0 +1,3 @@
+$ cd                                   # cd to the home directory
+$ mkdir -p repos/<username>.github.io  # Make site directory
+$ cd repos/<username>.github.io        # cd into new directory

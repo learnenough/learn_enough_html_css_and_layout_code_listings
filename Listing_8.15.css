@@ -1,0 +1,11 @@
+.bio-wrapper {
+  font-size: 24px;
+}
+.bio-wrapper:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}

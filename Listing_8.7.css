@@ -1,0 +1,12 @@
+  .test-box {
+    background: #9db6dd;
+    width: 200px;
+  }
+  .test-box-nosizing {
+    border: 10px solid #000;
+    padding: 40px;
+  }
+  .test-box-sizing {
+    box-sizing: border-box;
+  }
+</style>

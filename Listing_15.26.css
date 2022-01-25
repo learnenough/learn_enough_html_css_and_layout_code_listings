@@ -1,0 +1,30 @@
+.
+.
+.
+.grid_2-8 {
+  grid-column: 2 / 8;
+}
+.grid_3-7 {
+  grid-column: 3 / 7;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+  position: sticky;
+  text-align: center;
+  top: 0;
+  z-index: 10;
+}
+.header_menu {
+  column-gap: 1em;
+  display: flex;
+  justify-content: center;
+}
+.header_menu-link {
+  color: #a8d6f7;
+}
+.
+.
+.

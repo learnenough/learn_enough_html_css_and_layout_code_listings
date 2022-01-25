@@ -1,0 +1,2 @@
+$ curl -o images/small_twitter_logo.png \
+>      -L https://cdn.learnenough.com/small_twitter_logo.png

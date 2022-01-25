@@ -1,0 +1,11 @@
+.full-hero:after {
+  border: 10px solid;
+  border-color: #000 red purple blue;
+  bottom: 2vh;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 0;
+}

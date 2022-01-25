@@ -1,0 +1,15 @@
+.feature {
+  min-height: 70vh;
+}
+.feature_img {
+  background-image: url('/images/shark.jpg');
+  background-size: cover;
+  grid-column: 1 / 9;
+  grid-row: 1 / 2;
+}
+.feature_content {
+  background-color: #183a53;
+  color: #fff;
+  grid-row-start: 1;
+  padding: 2em 2em;
+}

@@ -1,0 +1,28 @@
+@media (max-width: 800px) {
+  .
+  .
+  .
+  /* HEADER STYLES */
+  .
+  .
+  .
+  /* MOBILE MENU */
+  .show-mobile-menu {
+    display: block;
+    float: right;
+    font-weight: bold;
+    margin-top: 1.5vh;
+    padding: 1.5em;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .header-nav {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .mobile-menu-check:checked ~ .header-nav {
+    max-height: 1000px;
+  }
+}

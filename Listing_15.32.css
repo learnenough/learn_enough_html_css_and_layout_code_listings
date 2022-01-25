@@ -1,0 +1,12 @@
+.feature {
+  min-height: 70vh;
+}
+.feature_img {
+  background-image: url('/images/shark.jpg');
+  background-size: cover;
+}
+.feature_content {
+  background-color: #183a53;
+  color: #fff;
+  padding: 2em 2em;
+}

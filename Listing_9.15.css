@@ -1,0 +1,7 @@
+/* HEADER STYLES */
+.header-nav {
+  float: right;
+}
+.header-nav > li {
+  display: inline-block;
+}

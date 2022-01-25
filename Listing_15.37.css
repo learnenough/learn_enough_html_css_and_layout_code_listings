@@ -1,0 +1,7 @@
+.grid_4-6 {
+  grid-column: 4 / 6;
+}
+.grid_cols-3max {
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 3em;
+}

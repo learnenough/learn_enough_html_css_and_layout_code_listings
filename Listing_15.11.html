@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      html,
+      body {
+        border: 0;
+        margin: 0;
+      }
+      .grid-container {
+        display:  grid;
+        grid-template-columns: repeat(3, 1fr);
+        min-height: 100vh;
+      }
+      .grid-container > div {
+        box-sizing: border-box;
+        position: relative;
+      }
+      .grid-header {
+        background-color: #ccc;
+      }
+      .grid-menu {
+        background-color: #c0c0c0;
+      }
+      .grid-content {
+
+      }
+      .grid-panel {
+        background-color: #eee;
+      }
+      .grid-footer {
+        background-color: #ddd;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+        grid-auto-rows: minmax(10em,1fr);
+        grid-gap: 1em;
+      }
+      .grid > div {
+        border:  1px solid #000;
+      }
+      .grid-feature {
+        grid-column: span 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="grid-header">
+        I am a Header
+      </header>
+      <nav class="grid-menu">
+        I am a Menu
+      </nav>
+      <article class="grid-content">
+        I am Content
+      </article>
+      <aside class="grid-panel">
+        I am Info
+      </aside>
+      <footer class="grid-footer">
+        I am a Footer
+      </footer>
+    </div>
+  </body>
+</html>
+
+<!--
+<div class="grid">
+  <div>
+    <h2>Big news today</h2>
+    Quick sync win-win-win or workflow ecosystem.
+  </div>
+  <div class="grid-feature">
+    <h2>We are really excited to announce that we will soon have an exciting
+    announcement!</h2>
+    We're ahead of the curve on that one we just need to put these last issues
+    to bed where do we stand on the latest client ask.
+  </div>
+  <div>
+    <h2>Currying favor performance review bench mark</h2>
+    No need to talk to users, just base it on the space calculator lift and
+    shift.
+  </div>
+  <div>
+    <h2>Level the playing field</h2>
+    Take five, punch the tree, and come back in here with a clear head. We need
+    to follow protocol obviously, rock Star/Ninja encourage & support business
+    growth yet curate.
+  </div>
+  <div>
+    <h2>Usability closing these latest prospects </h2>
+    Customer centric where do we stand on the latest client ask back of the net
+    4-blocker fast track make it look like digital, like putting socks on an
+    octopus.
+  </div>
+  <div>
+    1
+  </div>
+  <div>
+    2
+  </div>
+  <div>
+    3
+  </div>
+  <div>
+    4
+  </div>
+  <div>
+    5
+  </div>
+  <div>
+    6
+  </div>
+  <div>
+    7
+  </div>
+  <div>
+    8
+  </div>
+</div>
+-->

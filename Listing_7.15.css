@@ -1,0 +1,31 @@
+<style>
+  /* GLOBAL STYLES */
+  a {
+    color: #f00;
+  }
+
+  /* SOCIAL STYLES */
+  .social-link {
+    background: rgba(150, 150, 150, 0.5);
+    color: blue;
+  }
+
+  /* BIO STYLES */
+  .bio-wrapper {
+    font-size: 24px;
+  }
+  .bio-box {
+    border: 1px solid black;
+    font-size: 1rem;
+    width: 50%;
+  }
+  .bio-box h3 {
+    font-size: 1.5em;
+  }
+  .bio-copy {
+    font-size: 1em;
+  }
+  .bio-copy a {
+    color: green;
+  }
+</style>

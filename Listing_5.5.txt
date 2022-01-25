@@ -1,0 +1,5 @@
+$ git init
+$ git add -A
+$ git commit -m "Initialize repo"
+$ git remote add origin <repo url>
+$ git push -u origin main
